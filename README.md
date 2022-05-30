@@ -1,7 +1,7 @@
 # loginNregister
 
 
-#For client
+# For client
 
 - installed node packages:
   
@@ -10,7 +10,7 @@
   ```
   
   
- #For server
+ # For server
  -  installed node package:
     ```
     npm i bcrypt
@@ -43,10 +43,10 @@
       nghttp3: '0.1.0-DEV'
     }
   ```
-  ##login
+  ## Login
   ![](screenshots/login.png)<br>
-  ##Register
+  ## Register
   ![](screenshots/register.png)<br>
-  ##Dashboard
+  ## Dashboard
   ![](screenshots/dashboard.png)
   
