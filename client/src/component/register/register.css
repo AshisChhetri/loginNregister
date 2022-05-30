@@ -1,0 +1,84 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 30rem;
+    height: 42rem;
+    max-width: 50rem;
+    min-width: 20rem;
+    max-height: 600px;
+    border-radius: 20px;
+    background: rgb(249, 250, 252);
+    position: relative;
+}
+.h1{
+    position: relative;
+    font-size: 30pt;
+    padding: 10px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100;
+}
+
+.signupInfo{
+    position: relative;
+    padding-left: 10px;
+    font-size: 11pt;
+    color: rgb(115, 116, 117);
+}
+
+input[type=text],input[type=password]{
+    height: 30px;
+    font-size: 18pt;
+}
+
+.forms-fields{
+    position: relative;
+    margin: 10px 0 0 0;
+}
+
+.forms-inputs{
+    border: 0.5px solid rgb(126, 139, 156) ;
+    display: flex;
+    font-size: 25pt;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(249, 250, 252);
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+.button{
+    background-color: rgb(80, 72, 229);
+    border: 1px solid rgb(80, 72, 229);
+    color: #fff;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    outline: none;
+    width: 88%;
+    cursor: pointer;
+}
+a{
+    padding-left:5px ;
+}
+
+.pd-10{
+    padding-left: 10px; 
+}
+.dif{
+    display: inline-flex;
+    color: rgb(115, 116, 117);
+}
+.hyperlink{
+    padding-left: 5px;
+    color: rgb(80, 72, 229) ;
+}

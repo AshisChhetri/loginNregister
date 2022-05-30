@@ -1,0 +1,93 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 20px;
+    background: rgb(249, 250, 252);
+    position: relative;
+}
+.left-vbar{
+    position: relative;
+    width: 20rem;
+    height: 59rem;
+    background-color: rgb(18, 24, 40);
+    background-blend-mode: normal;
+    padding-top: 20px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.ltit{
+    position: relative;
+    display: inline-block;
+    padding-top: 22px;
+    padding-left: 20px;
+    text-align: left;
+    width: 90%;
+    font-weight: bold;
+    height: 40px;
+    border-radius:8px ;
+    background-color: rgb(36,42,56);
+    color: rgb(17, 179, 127);
+    
+}
+
+.logout{
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    color: rgb(33, 175, 75);
+}
+
+
+.right-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    width: 99rem;
+    height: 60rem;
+    background-color: rgb(249, 250, 252);
+   
+    background-blend-mode: normal;
+}
+.r-topbar{
+    text-align: end;
+    position: relative;
+    width: 100%;
+    height: 86px;
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: normal;
+      
+}
+img{
+    cursor: pointer;
+}
+.nav-right img{
+    margin-top: 20px;
+    width: 25px;
+    margin-right: 25px;
+}
+  
+.user-icon{
+
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+  
+}
+
+.rbottom{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+  
